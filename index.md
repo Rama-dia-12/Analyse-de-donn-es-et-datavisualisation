@@ -5,13 +5,45 @@
 # Les meilleures audiences dans les salles de cinéma françaises
 ## *Cette présentation vise à montrer les scores d'audience réalisés par les 200 films les plus plébiscités dans les salles françaises, sur une période allant de 1945 à 2021*
 
-jeu de données utilisés: <iframe src="http://www.cnc.fr/c/document_library/get_file?uuid=93432759-5943-4250-8d29-f493cfd954cd&groupId=18" width="600" height="450" frameborder="0"></iframe> 
+*Sommaire*
+- Avant-Propos
+- 1)Jeu de données utilisé
+- 2)Visualisations
+  * 2) a.Scatter dots des scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021
+  * 2) b.Grid of pie charts présntant une répartition par année des plus gros succès et de leur chiffres au box office
+  * 2) c.Area chart du nombre d'entrées cumulées par années
+  * 2) d.Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises
+  * 2) e.Wikidata Query Service
+- Conclusion
 
-**Scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021**
-  <script src="https://public.flourish.studio/visualisation/12691863/"></script> 
+**Avant-Propos**
 
-**Répartition par année des plus gros succès et de leur chiffres au box office**
-  <script src="https://public.flourish.studio/visualisation/12692271/"></script>
+**1) Jeu de données utilisé**
 
+<iframe src="http://www.cnc.fr/c/document_library/get_file?uuid=93432759-5943-4250-8d29-f493cfd954cd&groupId=18" width="600" height="450" frameborder="0"></iframe> 
+
+
+**2) Visualisations**
+
+  **2) a. Scattered dots des scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021**
+    
+    <script src="https://public.flourish.studio/visualisation/12691863/"></script> 
+
+  **2) b. Grid of pie charts Répartition par année des plus gros succès et de leur chiffres au box office**
+   
+   <script src="https://public.flourish.studio/visualisation/12692271/"></script>
+
+  **2) c. Area chart du nombre d'entrées cumulées par années**
+   
+   <script src="https://datawrapper.dwcdn.net/D4VHa/1/"></script>
+  
+  **2) d. Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises**
+    
+    <script src= "https://datawrapper.dwcdn.net/WTsSC/1/"></script>
+  
+  **2) e. Wikidata Query Service**
+
+**Conclusion**
+  
              
 
