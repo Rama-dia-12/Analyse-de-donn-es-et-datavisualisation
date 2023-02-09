@@ -371,7 +371,9 @@ En 1946, dans un soucis d'encadrer et de restaurer le cinéma français fortemen
 
 **1) Jeu de données utilisé** 
 
-Afin de pouvoir les exploiter, j'ai dû procéder à un nettoyage de ce fichier xlsx car il ne s'accordait pas aux bonnes pratiques; des cellules étaient fusionnées, les données ne commencaient pas aux premières lignes du tableau, les valeurs numériques étaient décimales, ce qui faussait les visualisations. La plus grande difficulté que j'ai rencontré lors du sanity check était la correction du format des années. Elles étaient traitées comme des valeurs numériques décimales, il était donc impossible de les convertir en format date. J'ai donc dû utiliser, sur Openrefine, le langage GREL, pour arrondir les valeurs avec la fonction `value.round()` avant de convertir leur format en date grâce à la fonction `value.toDate()`, ce qui me retournait 
+Afin de pouvoir les exploiter, j'ai dû procéder à un nettoyage de ce fichier xlsx car il ne s'accordait pas aux bonnes pratiques; des cellules étaient fusionnées, les données ne commencaient pas aux premières lignes du tableau, les valeurs numériques étaient décimales, ce qui faussait les visualisations. La plus grande difficulté que j'ai rencontré lors du sanity check était la correction du format des années. Elles étaient traitées comme des valeurs numériques décimales, il était donc impossible de les convertir en format date. J'ai donc dû utiliser, sur Openrefine, le langage GREL, pour arrondir les valeurs avec la fonction `value.round()` avant de convertir leur format en date grâce à la fonction `value.toDate()`, ce qui me retournait une date sous ce format : 
+> [date 1998-01-01T00:00:00Z]
+J'ai donc utilisé la fonction `value.datePart("year")` pour afficher la date
 
 Voici le jeu de données tel qu'il était en accès libre :
 
