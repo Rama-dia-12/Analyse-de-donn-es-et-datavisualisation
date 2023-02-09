@@ -3,7 +3,7 @@
 <meta http-equiv='pragma' content='no-cache'>
 
 # Les meilleures audiences dans les salles de cinéma françaises
-## *Cette présentation vise à montrer les scores réalisés par les films les plus plébiscités dans les salles françaises, sur une période allant de 1945 à 2021*
+## *Cette présentation vise à montrer les scores d'audience réalisés par les 200 films les plus plébiscités dans les salles françaises, sur une période allant de 1945 à 2021*
 
 jeu de données utilisés: <iframe src="http://www.cnc.fr/c/document_library/get_file?uuid=93432759-5943-4250-8d29-f493cfd954cd&groupId=18" width="600" height="450" frameborder="0"></iframe> 
 
