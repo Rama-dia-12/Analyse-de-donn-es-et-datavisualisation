@@ -8,10 +8,10 @@
 jeu de données utilisés: <iframe src="http://www.cnc.fr/c/document_library/get_file?uuid=93432759-5943-4250-8d29-f493cfd954cd&groupId=18" width="600" height="450" frameborder="0"></iframe> 
 
 **Scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021**
-  <script src="https://public.flourish.studio/visualisation/12691863/"> </script> 
+  <script src="https://public.flourish.studio/visualisation/12691863/"></script> 
 
 **Répartition par année des plus gros succès et de leur chiffres au box office**
-  <script src="https://public.flourish.studio/visualisation/12692271/"> </script>
+  <script src="https://public.flourish.studio/visualisation/12692271/"></script>
 
              
 
