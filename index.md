@@ -1,3 +1,7 @@
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
+
 # Les meilleures audiences dans les salles de cinéma françaises
 ## *Cette présentation vise à montrer les scores réalisés par les films les plus plébiscités dans les salles françaises, sur une période allant de 1945 à 2021*
 
